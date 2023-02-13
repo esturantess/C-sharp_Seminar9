@@ -16,3 +16,16 @@ void NaturalNumbersOutput(int boundary)
 Random rand = new Random();
 int intervalBoundary = rand.Next(1, 101);
 NaturalNumbersOutput(intervalBoundary);
+
+// Решение с семинара
+
+// void FunctionN(int numb)
+// {
+//     if (numb > 1)
+//     {
+//         FunctionN(numb - 1);
+//     }
+//     Console.WriteLine(numb);
+// }
+
+// FunctionN(3);
