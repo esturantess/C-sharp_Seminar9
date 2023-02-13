@@ -34,3 +34,16 @@ else if (M > N)
 else System.Console.WriteLine(M);
 
 NaturalNumbersOutput(leftBorder, rightBorder);
+
+// Решение с семинара
+
+// void Recursion(int number1, int number2)
+// {
+// if (number2 > number1)
+// {
+// Recursion(number1,number2 - 1);
+// }
+// System.Console.WriteLine(number2);
+// }
+
+// Recursion(4,8);
