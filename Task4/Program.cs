@@ -36,3 +36,16 @@ int Exponentiation(int number, int degree)
 int firstNumber = InputNumber("Введите число A: ");
 int secondNumber = InputNumber("Введите целую степень B: ");
 Console.WriteLine($"Число {firstNumber} в степени {secondNumber} = {Exponentiation(firstNumber, secondNumber)}.");
+
+// Решение с семинара
+
+// int FuncRecursion(int num, int i)
+// {
+//     if (i > 0)
+//     {
+//         return num * FuncRecursion(num, i - 1);
+//     }
+//     return 1;
+// }
+
+// Console.WriteLine(FuncRecursion (2,5));
